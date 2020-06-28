@@ -4,9 +4,6 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 // import SyntaxHighlighter from 'react-syntax-highlighter';
 // import {dracula} from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import {
-  atomDark,
-  okaidia,
-  duotoneDark,
   tomorrow,
 } from "react-syntax-highlighter/dist/esm/styles/prism";
 const CodeSnippet = ({ codeString, language }) => {
