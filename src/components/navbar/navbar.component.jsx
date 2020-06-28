@@ -30,18 +30,7 @@ const styles = (theme) => ({
 
 const Nav = withStyles(styles)(
     class extends Component {
-        static defaultProps = () => ({
-            MenuItems: () => (
-                <fragment>
-                    <MenuItem component={Link} to='/'>
-                        Home
-                    </MenuItem>
-                    <MenuItem component={Link} to='/login'>
-                        Home
-                    </MenuItem>
-                </fragment>
-            ),
-        });
+
         state = {
             anchor: null,
         };
@@ -86,7 +75,7 @@ const Nav = withStyles(styles)(
                             </Button>
                         </Toolbar>
                     </AppBar>
-                    <div className={classes.appBarMargin}></div>
+                    <div className={classes.appBarMargin}>{""}</div>
                 </div>
             );
         }

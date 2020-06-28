@@ -5,7 +5,7 @@ import V1 from "../../Notes/v1";
 const ProjectSetup =()=>{
     const {url,path} = useRouteMatch();
     return(
-        <Router>
+        <div>
             <h1>Creating the React App</h1>
             <Link to={`${url}/project-setup`}>Project Setup</Link>
 
@@ -16,7 +16,7 @@ const ProjectSetup =()=>{
             render={()=>(
                 <V1/>
             )}/>
-        </Router>
+        </div>
     )
 }
 
