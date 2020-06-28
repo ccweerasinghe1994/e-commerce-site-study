@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link,Route,useRouteMatch,BrowserRouter as Router} from 'react-router-dom';
-import V1 from "../../Notes/v1";
+import V1 from "../../Notes/ProjectStructure/v1";
 
 const ProjectSetup =()=>{
     const {url,path} = useRouteMatch();

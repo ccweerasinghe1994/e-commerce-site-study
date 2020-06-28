@@ -1,6 +1,6 @@
 import React from 'react';
-import CodeSnippet from "../components/codeSnippet/codeSnippet.component";
-import HomePage from "../components/pages/homepage/homePage.component";
+import CodeSnippet from "../../components/codeSnippet/codeSnippet.component";
+import HomePage from "../../components/pages/homepage/homePage.component";
 
 
 const V2 = () => {

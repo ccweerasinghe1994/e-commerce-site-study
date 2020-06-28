@@ -1,16 +1,14 @@
 import React,{Fragment}  from "react";
 import "./App.css";
 
-import V3 from "./Notes/v3";
- import NavBar from "./components/navbar/navbar.component";
- import { Link, Route,Switch } from "react-router-dom";
- import { MenuItem,Grid } from "@material-ui/core";
+import V3 from "./Notes/ProjectStructure/v3";
+ import {  Route,Switch } from "react-router-dom";
+
 import HomePage from "./pages/HomePage/HomePage.page";
-import V1 from "./Notes/v1";
-import V2 from "./Notes/v2";
-// import { Homepage } from "./components/homePage/homepage.component";
-// import { Login } from "./components/login/login.component";
-// import ProjectSetup from "./components/ProjectStup/projectSetup";
+import V1 from "./Notes/ProjectStructure/v1";
+import V2 from "./Notes/ProjectStructure/v2";
+import Routes from "./Notes/ProjectRoutes/v1";
+
 
 
 function App() {
@@ -20,6 +18,7 @@ function App() {
           <Route exact path='/project-setup/1' component={V1}/>
           <Route exact path='/project-setup/2' component={V2}/>
           <Route exact  path='/project-setup/3' component={V3}/>
+          <Route exact  path='/project-routing' component={Routes}/>
       </Switch>
 
 

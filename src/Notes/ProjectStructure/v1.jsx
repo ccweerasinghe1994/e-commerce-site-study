@@ -1,5 +1,5 @@
 import React from 'react';
-import CodeSnippet from "../components/codeSnippet/codeSnippet.component";
+import CodeSnippet from "../../components/codeSnippet/codeSnippet.component";
 
 
 const V1 =()=>{
