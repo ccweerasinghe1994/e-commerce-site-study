@@ -1,6 +1,7 @@
 import React  from "react";
 import "./App.css";
-import V1 from "./Notes/v1";
+
+import V3 from "./Notes/v3";
 // import NavBar from "./components/navbar/navbar.component";
 // import { Link, BrowserRouter as Router, Route } from "react-router-dom";
 // import { MenuItem,Grid } from "@material-ui/core";
@@ -12,7 +13,7 @@ import V1 from "./Notes/v1";
 function App() {
   return (
       <div>
-          <V1/>
+          <V3/>
       </div>
     // <Router>
     //   <NavBar
