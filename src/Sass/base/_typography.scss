@@ -1,17 +1,24 @@
-.h-1{
-  font-size: 1.8rem;
+@mixin radiant-text() {
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
-.h-2{
-  font-size: 1.8rem;
+.h-1 {
+  font-size: 5rem;
+  background-image: linear-gradient(to right , #f79d4e, #ee0043);
+  @include radiant-text;
+}
+
+.h-2 {
+  font-size: 2rem;
+  margin: 4rem 0 2rem 0;
 }
 
 .header {
   font-size: 5rem;
   font-weight: bold;
-  color: transparent;
   background-image: linear-gradient(to right bottom, #ff000f, #f911bf);
-  -webkit-background-clip: text;
-
+  @include radiant-text;
 
 }
+

@@ -10,10 +10,12 @@ const HomePage = () => {
             <div className='item'>
                 <div className="header">Chapter 1</div>
                 <div>
-                    <ul>
-                        <li><Link className='link' to='/project-setup/1'>Create a React app</Link></li>
-                        <li><Link className='link' to='/project-setup/2'>Creating the Folder Structure</Link></li>
-                    </ul>
+
+                        <Link className='link' to='/project-setup/1'>Create a React app</Link>
+
+                        <Link className='link' to='/project-setup/2'>Creating the Folder Structure</Link>
+                        <Link className='link' to='/project-setup/3'>Adding hover effect</Link>
+
                 </div>
 
 
@@ -21,10 +23,10 @@ const HomePage = () => {
             <div className='item'>
                 <div className="header">Chapter 2</div>
                 <div>
-                    <ul>
-                        <li><Link className='link' to='/project-routing'>Project Routing</Link></li>
 
-                    </ul>
+                       <Link className='link' to='/project-routing'>Project Routing</Link>
+
+
                 </div>
 
             </div>

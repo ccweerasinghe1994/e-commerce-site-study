@@ -19,7 +19,7 @@ function App() {
           <Route exact path='/' component={HomePage} />
           <Route exact path='/project-setup/1' component={V1}/>
           <Route exact path='/project-setup/2' component={V2}/>
-          <Route exact  path='/project-routing' component={V2}/>
+          <Route exact  path='/project-setup/3' component={V3}/>
       </Switch>
 
 

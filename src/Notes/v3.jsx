@@ -5,7 +5,7 @@ import HomePage from "../components/pages/homepage/homePage.component";
 
 const V3 =()=>{
     return(
-        <div>
+        <div className='root'>
             <h1 className="h-1">Adding hover Effect</h1>
 
             <div className="example-layout">

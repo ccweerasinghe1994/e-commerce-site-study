@@ -4,12 +4,13 @@ import HomePage from "../components/pages/homepage/homePage.component";
 
 
 const V2 = () => {
-    return (<div>
+    return (<div className='root'>
+        <h1 className="h-1">Creating the Folder Structure</h1>
         <div className='example-layout' >
             <HomePage/>
         </div>
-        <h1 className="h-1">Creating the Folder Structure</h1>
-        <h2 className="h-2">Creating Components</h2>
+
+
         <h2 className="h-2">Menu item component</h2>
         <CodeSnippet codeString={`
 import React from 'react';

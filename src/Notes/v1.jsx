@@ -4,7 +4,7 @@ import CodeSnippet from "../components/codeSnippet/codeSnippet.component";
 
 const V1 =()=>{
     return(
-        <div>
+        <div className='root' >
             <h2 className='h-1' >Create a React app</h2>
             <CodeSnippet language='node' codeString={`npx create-react-app app-name`}/>
             <h2 className='h-2' >Layout Output</h2>
