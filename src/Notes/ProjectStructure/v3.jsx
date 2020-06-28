@@ -39,14 +39,8 @@ $color-background-white: white;
 
   position: relative;
   overflow: hidden;
-
-
-
-
-
-
-  .content {
   
+  .content {
     background-color: $color-background-white;
     opacity: 0.7;
     font-family: 'Montserrat Subrayada', sans-serif;
