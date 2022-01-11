@@ -1,4 +1,47 @@
 .main {
+  .card {
+    width: 70vw;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #c4c4c425;
+    .header {
+      position: absolute;
+      top: 10vh;
+      right: 12vw;
+    }
+
+    .picture {
+      width: 20vw;
+      height: 20vh;
+      img {
+        background-position: top;
+        background-size: cover;
+        width: 20vw;
+        height: 20vh;
+        border: 1px solid black;
+      }
+      border: 1px solid black;
+    }
+    .sub-topics {
+      margin-top: 10px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      .header {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .sub-topics {
+        position: absolute;
+        left: 0;
+        top: 60px;
+      }
+    }
+  }
 
   display: flex;
   flex-direction: row;
@@ -16,7 +59,7 @@
     margin: 0 2rem 1.5rem;
     height: auto;
     min-height: 200px;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.3);
     cursor: pointer;
     font-size: 3rem;
@@ -34,8 +77,5 @@
       box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
       transform: scaleY(0.95);
     }
-
-
-
   }
 }
